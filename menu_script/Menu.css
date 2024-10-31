@@ -1,0 +1,101 @@
+/* Change font size from 8 to 10 in three places and changed mainTable width from 100 to 120px */
+#BssMenuSystem
+{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+  border: 0px ;
+  padding: 0px;
+  margin: 0px;
+  border-collapse: collapse; 
+}
+#BssMenuSystem table
+{
+  font-family: verdana,geneva,sans serif;
+  font-size: 10pt;  
+  border-collapse: collapse; 
+  border: 0px ;
+  padding: 0px;
+  margin: 0px;
+}
+#BssMenuSystem table tr
+{
+  border: 0px ;
+  padding: 0px;
+  margin: 0px;
+}
+#BssMenuSystem table td
+{
+  border: 0px ;
+  padding: 0px;
+  margin: 0px;
+  color: Black;
+  width: 133px;
+}
+
+#BssMenuTable table
+{
+  border: 0px ;
+  padding: 0px;
+  margin: 0px;
+  border-collapse: collapse;
+  width: 133px;
+}
+#BssMenuTable th
+{
+  width: 133px;
+  background-color: #FFCC00;
+  border: 0px ;
+  padding: 0px;
+  margin: 0px;
+  text-align: left;
+  font-weight:normal;
+  color: Black;
+  border: 0px ;
+  padding: 0px;
+  margin: 0px;
+}
+#BssMenuTable table td
+{
+  margin: 0px;
+  border: 0px ;
+  background-color: #FFCC00;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  text-align: left;
+  color: Black;
+}
+
+#BssMenuTable a
+{
+  color: Black;
+  padding-left: 3px;
+  padding-right: 3px;
+/*  font-family: verdana,geneva,sans serif;*/
+  font-size: 9pt;  
+  text-decoration: none;
+}
+#BssMenuTable a:link
+{
+  color: #005984;
+  padding-left: 3px;
+  padding-right: 3px;
+  font-size: 10pt;  
+  font-weight:normal;
+  text-decoration: none;
+ color: Black;
+}
+#BssMenuTable a:hover
+{
+  color: Black;
+  padding-left: 3px;
+  padding-right: 3px;
+  background-color: #FDFF9B;
+  font-size: 10pt;  
+  text-decoration: none;
+  display: block;
+}
+

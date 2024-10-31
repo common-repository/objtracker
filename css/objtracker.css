@@ -1,0 +1,340 @@
+﻿/*					Selects
+.class	.intro		 all elements with class="intro"	
+#id		#firstname	 the element with id="firstname"
+element	p			 all <p> elements
+element,element	
+		div,p		 all <div> and all <p> 
+element element	
+		div p		 all <p> inside <div>
+element>element	
+		div>p		 all <p> where the parent is a <div> 
+element+element	
+		div+p		 all <p> immediately after <div> 
+*/
+
+.BssWorld
+{
+    background: White;
+    font-size: .80em;
+    font-family: "Helvetica Neue" , "Lucida Grande" , "Segoe UI" , Arial, Helvetica, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: #696969;
+}
+.Bssbackground td
+{
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+.Bssbackground
+{
+    background-color: #6699cc;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+    width: 100%;
+}
+#BssBanner .Bssmplink
+{
+	border: 0px ;
+    color: #ffffff;
+}
+#BssBanner  
+{
+	border-collapse:collapse;
+	width: 799px;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+.BssBanner1 
+{
+	font-size: 16px; font-weight: bolder;
+    color: White;
+}
+.BssBanner2 
+{
+    font-size: .90em;
+    color: White;
+	text-align:right;
+}
+.BssBanner2 .mplink
+{
+	border: 0px ;
+    color: #ffffff;
+}
+#BssNonNavigationPanel .mplink
+{
+	background: White;
+}
+#BssPageContent {
+	background: White;
+}
+/*
+----------------------------------------------------------
+ Formview components.  
+----------------------------------------------------------*/
+.BssFormview 
+{
+    margin-left: 12px;
+	border-collapse:collapse;
+	line-height: 10px;
+	font-size: 1em;
+	color: Black;
+	width: 600px;
+	background-color: White;
+}
+.BssFormview tr td
+{
+	background-color: White;
+}
+.BssFormview tr td textarea
+{
+	background-color: White;
+    border: 1px solid black;
+}
+.BssFormview select
+{
+	background-color: White;
+    border: 1px solid black;
+}
+.BssFormview input[type="text"]
+{
+	background-color: White;
+    border: 1px solid black;
+	width:600px;
+}.BssFormview textarea
+{
+	background-color: White;
+    border: 1px solid black;
+	width:600px;
+}
+/*
+----------------------------------------------------------
+ Gridview components.  
+----------------------------------------------------------*/
+.BssTable 
+{
+    margin-left: 12px;
+	font-size: 1em;
+	border-collapse:collapse;
+	color: Black;
+}
+.BssGridview 
+{
+    margin-left: 12px;
+	font-size: 1em;
+	border-collapse:collapse;
+	color: Black;
+}
+.BssGvOddRow
+{
+    background-color: #FDFF9B; 
+}
+.BssGvEvenRow
+{
+    background-color: #ffffff;
+}
+.BssGvAddRow
+{
+    background-color: #ffffff;
+}
+.BssGridview tr th 
+{
+    color: Black;
+    font-size: 1.2em;
+    border: 1px solid black;
+    background-color: white;
+}
+.BssGridview tr td 
+{
+    border: 1px solid black;
+}
+.BssGridview tr th a 
+{
+    color: Black;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.BssFormview tr td a
+{
+	font-weight: Bold;
+    text-decoration: underline;
+    color: blue;
+}
+.BssGridview tr td a
+{
+	font-weight: Bold;
+    text-decoration: underline;
+    color: blue;
+}
+.BssGvAddRow input[type="button"]
+{
+	color: blue;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+	font-size: 0.60em;
+}
+.BssGvAddRow input[type="text"]
+{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.BssButton 
+{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+/* Fix panel header and description text   
+----------------------------------------------------------*/
+.BssUL
+{
+    margin: 0px 10px 5px 20px; 
+    width: 720px;
+	list-style-type: disc;
+	left:20px;
+	position:relative;
+}
+ol li ol li 
+{
+    margin: 0px 10px 5px 20px; 
+    width: 670px;
+}
+ol li 
+{
+    margin: 0px 10px 5px 20px; 
+    width: 720px;
+}
+
+.BssInfoHeader
+{
+  width:780px;
+  border-top: 1px solid Black;
+  height: 24px;
+  font-size: 1.2em;
+  overflow: hidden;
+  position:relative;
+  left: 0;
+  color: Black; 
+  font-weight: Normal;
+}
+.BssInfoLine
+{
+  padding: 2px;
+  vertical-align: middle;
+  font-weight: bold;
+}
+.BssInfoLeft
+{
+  float: left;
+}
+.BssInfoRight
+{
+  float: right;
+  cursor: pointer;
+  vertical-align: middle;
+  color: White; 
+}
+.BssInfoRight img 
+{
+    margin: 0px ;
+    background-color: White; 
+    background: White; 
+}
+
+a:hover + div {
+    display: block;
+}
+
+body
+{
+    background: White;
+    font-size: .80em;
+    font-family: "Helvetica Neue" , "Lucida Grande" , "Segoe UI" , Arial, Helvetica, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: #696969;
+}
+
+/* Fix panel header and description text   
+----------------------------------------------------------*/
+.BssDescription
+{
+    margin: 0px 10px 5px 20px;
+    width: 750px;
+	left:0px;
+	position:relative;
+}
+
+/* Report  
+----------------------------------------------------------*/
+.BssReportTable 
+{
+	background-color: White;
+    vertical-align: top;
+    padding: 0px;
+}
+.BssReportTable tr
+{
+	background-color: White;
+    vertical-align: top;
+    padding: 0px;
+}
+.BssReportTd1
+{
+    width:25px;
+    vertical-align:top;
+    padding:0px;
+}
+.BssReportTd2
+{
+    width:135px;
+    vertical-align:top;
+    padding:0px;
+}
+.BssReportTd3
+{
+    width:90px;
+    vertical-align:top;
+    padding:0px;
+}
+.BssReportTd5
+{
+    vertical-align:top;
+    padding:0px;
+}
+
+.BssFooter
+{
+	background-color: White;
+    color: #4e5766;
+    padding: 8px 0px 0px 0px;
+    margin: 0px auto;
+    text-align: center;
+    line-height: normal;
+}
+
+.BssFooter tr
+{
+    background-color: White;
+    border: 0 none;
+    color: Black;
+    height: 1px;
+}
+.BssError
+{
+	color: Red;
+    font-size: .90em;
+}
+.BssInfo
+{
+	color: Black;
+    font-size: .90em;
+}
